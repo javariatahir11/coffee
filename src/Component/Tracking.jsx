@@ -1,4 +1,4 @@
-import "./tracking.css";
+import "./css/Tracking.css";
 import img from "./map.png";
 import { Link } from "react-router-dom";
 import { FaPhoneAlt } from "react-icons/fa";
