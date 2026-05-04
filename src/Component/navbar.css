@@ -1,0 +1,33 @@
+.nav{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    padding: 15px 0;
+    z-index: 1000;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.nav ul li a{
+    color: #aaa;
+    font-size: 22px;
+    transition: 0.3s;
+}
+
+
+.nav ul li a:hover{
+    color: #c67c4e;
+}
+
+
+.nav ul li a.active{
+    color: #c67c4e;
+}

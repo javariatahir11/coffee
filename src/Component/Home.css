@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sora", sans-serif;
+}
+
+
+
+.home{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+.hero{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    background: url(./image\ \(2\).png) center/cover no-repeat;
+}
+
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 120px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.966), transparent);
+}
+
+
+.content{
+    text-align: center;
+    padding: 20px;
+    margin-top: -40px;
+    z-index: 2;
+  background-color: black;
+}
+
+
+.content h1,
+.content h2,
+.content h3{
+    color: white;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    
+}
+.content h1{
+     margin-top: -78px;
+}
+
+.content p{
+    color: #A2A2A2;
+    font-size: 14px;
+    margin: 12px 0;
+}
+
+
+.content button{
+    width: 100%;
+    padding: 15px;
+    background: #c67c4e;
+    border: none;
+    border-radius: 14px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+@media (min-width: 768px){
+    .hero{
+        height: 80vh;
+    }
+
+    .content{
+        max-width: 400px;
+        margin: -60px auto 0;
+    }
+
+    .content h1,
+    .content h2,
+    .content h3{
+        font-size: 30px;
+        line-height: 42px;
+    }
+}

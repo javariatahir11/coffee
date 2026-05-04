@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.jj {
+  padding: 16px;
+  max-width: 420px;
+  margin: auto;
+}
+
+.jj1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jj2 {
+  color: #a0522d;
+  font-size: 20px;
+}
+
+
+.jj3 {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin: 15px 0;
+}
+.jj3 img{
+  width: 100%;
+  height: 100%;
+}
+
+
+.jj4 {
+  margin: 0;
+}
+
+.jj5 {
+  color: gray;
+ 
+}
+
+
+.jj6 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.jj7 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+}
+.desc{
+  margin-top: 10px;
+  font-size: 21px;
+}
+.jj8 {
+  color: orange;
+}
+
+.jj9 {
+  color: gray;
+}
+
+
+.jj10 {
+  display: flex;
+  gap: 8px;
+}
+
+.jj10 div {
+  background: #f3f3f3;
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #a0522d;
+}
+
+
+.jj11 {
+  color: rgb(150, 150, 150);
+  font-size: 14px;
+  margin-top: 11px;
+  
+}
+.size{
+  font-size: 21px;
+  margin-top: 9px;
+}
+
+
+.jj12 {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.jj12 button {
+  flex: 1;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  background: white;
+  cursor: pointer;
+}
+
+.jj13 {
+  border: 2px solid #a0522d !important;
+  color: #a0522d;
+  font-weight: bold;
+}
+
+
+.jj14 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.jj15 {
+  color: gray;
+  font-size: 17px;
+  margin: 0;
+}
+
+.jj16 {
+  margin: 0;
+  font-size: 20px;
+  color: #a0522d;
+}
+
+
+.jj17 {
+  background: #a0522d;
+  color: white;
+  padding: 14px 47px;
+  border: none;
+  border-radius: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
