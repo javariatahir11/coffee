@@ -1,5 +1,5 @@
 import React from "react";
-import "./CoffeeDetail.css";
+import "../css/CoffeeDetail.css";
 import { FaHeart, FaStar, FaCoffee, FaFire } from "react-icons/fa";
 import { GiMilkCarton } from "react-icons/gi";
 import { Link} from "react-router-dom";

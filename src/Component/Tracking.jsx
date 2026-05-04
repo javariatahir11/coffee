@@ -1,4 +1,4 @@
-import "./tracking.css";
+import "../css/tracking.css";
 import img from "./map.png";
 import { Link } from "react-router-dom";
 import { FaPhoneAlt } from "react-icons/fa";
@@ -48,6 +48,7 @@ function Tracking() {
             <button className="ff13"><FaPhoneAlt /></button>
           </Link>
         </div>
+
 
       </div>
     </div>

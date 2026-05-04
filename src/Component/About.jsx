@@ -1,5 +1,5 @@
 
-import "./about.css";
+import "../css/about.css";
 import imeag1 from "./Screenshot 13.png"
 import imeag2 from "./Screenshot 14.png"
 import imeag3 from "./Screenshot 12.png"
