@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import "../css/order.css";
+import "./order.css";
 import img from "./Screenshot 13.png";
 
 function Order() {

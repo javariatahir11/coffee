@@ -1,4 +1,4 @@
-import "./Navbar.css";
+import "./navbar.css";
 import { FaHome, FaUser, FaEnvelope, FaCog } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
